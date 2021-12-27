@@ -1,0 +1,9 @@
+<div class="strona">
+  <div
+    [ngStyle]="{ backgroundColor: tile.color }"
+    *ngFor="let tile of tiles"
+    class="kafelek"
+  >
+    {{ tile.label }}
+  </div>
+</div>

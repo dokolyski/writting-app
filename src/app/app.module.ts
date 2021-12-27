@@ -7,6 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSliderModule } from '@angular/material/slider';
 import { MatExpansionModule } from '@angular/material/expansion';
 import { QuillModule } from 'ngx-quill';
+import { MainTilesModule } from '../main-tiles/main-tiles.module';
 
 @NgModule({
   declarations: [AppComponent],
@@ -17,6 +18,7 @@ import { QuillModule } from 'ngx-quill';
     MatSliderModule,
     MatExpansionModule,
     QuillModule.forRoot(),
+    MainTilesModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
